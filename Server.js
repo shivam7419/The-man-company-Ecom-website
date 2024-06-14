@@ -8,9 +8,14 @@ import categoryRoutes from './config/Modal/Routes/categoryRoutes.js'
 import productRoutes from './config/Modal/Routes/productRoutes.js'
 import cors from 'cors'
 import path from 'path'
+import {fileURLToPath} from 'url'
 
 //configure env
 dotenv.config();
+//esmodule
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
 
 //databse config
 connectDB();
