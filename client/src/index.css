@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+font-family: "Playfair Display", serif;
+font-family: "Poppins", sans-serif;
+ */
+
+/* navbar css */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0.3px solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 3px;
+}
+
+
+/* footer */
+.footer {
+  color: white;
+  padding: 25px;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(23, 22, 23, 1) 44%, rgba(255, 255, 255, 1) 100%);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: gray;
+  border-bottom: 1px solid gray;
+}
+
+/* Contact us */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* page not found */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* register page */
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+/*product*/
+
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+
+}
